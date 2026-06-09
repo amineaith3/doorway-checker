@@ -2,8 +2,8 @@ name: Live Match Sync
 
 on:
   schedule:
-    # Run every 15 minutes
-    - cron: '*/15 * * * *'
+    # Run every 5 minutes (Smart Logic will skip unnecessary syncs)
+    - cron: '*/5 * * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 jobs:
