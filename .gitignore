@@ -1,3 +1,6 @@
 __pycache__/
 *.pt
 .streamlit/
+report.*
+*.zip
+worldcup_aap/
